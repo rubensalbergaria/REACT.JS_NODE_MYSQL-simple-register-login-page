@@ -9,7 +9,7 @@ app.use(cors());
 
 const db = mysql.createConnection({
   user: "root",
-  host: "localhost",
+  host: "3.91.244.79",
   password: "Galodoido84",
   database: "loginsystem",
 })
@@ -46,6 +46,6 @@ app.post('/login', (req, res) => {
   })
 })
 
-app.listen(3001, () => {
-  console.log('running on port 3001');
+app.listen(3333, () => {
+  console.log('running on port 3333');
 });
